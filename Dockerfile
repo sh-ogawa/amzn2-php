@@ -9,6 +9,7 @@ RUN amazon-linux-extras install php7.2 \
 && yum install -y httpd \
 && yum install -y gcc \
 && yum install -y make \
+&& yum install -y zip \
 && pecl install xdebug 
 
 RUN { \
